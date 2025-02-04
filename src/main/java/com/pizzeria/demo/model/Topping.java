@@ -1,6 +1,6 @@
-package com.pizzeria.demo;
+package com.pizzeria.demo.model;
 
-public class Topping {
+public class Topping implements MenuItem {
     private String name;
     private double price;
     private int calories;

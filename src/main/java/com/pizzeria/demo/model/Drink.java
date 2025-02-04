@@ -1,6 +1,6 @@
-package com.pizzeria.demo;
+package com.pizzeria.demo.model;
 
-public class Drink {
+public class Drink implements MenuItem {
     private String name;
     private double price;
     private int calories;

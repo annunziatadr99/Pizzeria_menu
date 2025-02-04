@@ -1,4 +1,4 @@
-package com.pizzeria.demo;
+package com.pizzeria.demo.model;
 
 import java.util.List;
 
@@ -47,7 +47,7 @@ public class Menu {
         for (Pizza pizza : pizzas) {
             sb.append(pizza.getName()).append(" (").append(String.join(", ", pizza.getIngredients())).append(")\n");
         }
-        sb.append("\nToppings: \n");
+        sb.append("\nToppings\n");
         for (Topping topping : toppings) {
             sb.append(topping.getName()).append("\n");
         }

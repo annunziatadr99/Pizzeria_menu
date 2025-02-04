@@ -1,6 +1,6 @@
-package com.pizzeria.demo;
+package com.pizzeria.demo.config;
 
-import com.pizzeria.demo.*;
+import com.pizzeria.demo.model.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

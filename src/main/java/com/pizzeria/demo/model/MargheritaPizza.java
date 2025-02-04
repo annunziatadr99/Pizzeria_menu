@@ -1,4 +1,4 @@
-package com.pizzeria.demo;
+package com.pizzeria.demo.model;
 
 public class MargheritaPizza extends Pizza {
     public MargheritaPizza() {

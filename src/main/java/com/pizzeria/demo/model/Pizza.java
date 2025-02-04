@@ -1,12 +1,9 @@
-package com.pizzeria.demo;
-
-
-
+package com.pizzeria.demo.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Pizza {
+public abstract class Pizza implements MenuItem {
     protected String name;
     protected List<String> ingredients = new ArrayList<>();
     protected double price;

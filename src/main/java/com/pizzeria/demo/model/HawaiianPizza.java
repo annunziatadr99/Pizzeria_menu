@@ -1,4 +1,4 @@
-package com.pizzeria.demo;
+package com.pizzeria.demo.model;
 
 public class HawaiianPizza extends Pizza {
     public HawaiianPizza() {
