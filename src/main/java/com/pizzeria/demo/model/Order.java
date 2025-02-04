@@ -1,12 +1,16 @@
 package com.pizzeria.demo.model;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+
 @Data
+@NoArgsConstructor
 public class Order {
     private int orderNumber;
     private String status; // "in progress", "ready", "served"
@@ -34,5 +38,6 @@ public class Order {
         totalAmount = items.stream().mapToDouble(MenuItem::getPrice).sum();
         totalAmount += numberOfCovers * coverCost;
     }
+
 
 }

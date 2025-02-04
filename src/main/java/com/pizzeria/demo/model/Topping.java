@@ -1,49 +1,15 @@
 package com.pizzeria.demo.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Topping implements MenuItem {
     private String name;
     private double price;
     private int calories;
 
-    public Topping() {
-    }
-
-    public Topping(String name, double price, int calories) {
-        this.name = name;
-        this.price = price;
-        this.calories = calories;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public int getCalories() {
-        return calories;
-    }
-
-    public void setCalories(int calories) {
-        this.calories = calories;
-    }
-
-    @Override
-    public String toString() {
-        return "Topping{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", calories=" + calories +
-                '}';
-    }
 }
